@@ -5,9 +5,10 @@ This project delivers a comprehensive Business Intelligence and Statistical Anal
 The goal of this project is to transform raw production logs from a fill-finish line into an actionable oversight dashboard. The system monitors vial weighing processes, identifying anomalies that could compromise patient safety or plant efficiency in a high-stakes manufacturing setting.
 
 📊 [Dashboard Preview]
-
+![Dashboard Preview](dashboard_preview.png)
 
 🛠️ Technical Skills Demonstrated
+
 Mathematical & Statistical Analysis: Implementation of Statistical Process Control (SPC) and outlier detection through dispersion analysis.
 
 Data Engineering (ETL): Cleaning and normalization of MES data (Timestamps, decimal delimiters, and data types) using Python and Power Query.
@@ -17,6 +18,7 @@ Business Intelligence (Power BI): Designing high-resolution dashboards with crit
 Domain Knowledge (Pharma): Application of ALCOA+ principles and deviation management according to quality regulations.
 
 📈 Key Insights
+
 1. Excursion Detection: Identification of a critical deviation of 500mg (+900% of nominal value) during the Fill_Vial stage.
 
 2. Error Correlation: Analysis reveals that Operator 03 accounts for the highest volume of critical alarms, suggesting a need for technical review or targeted retraining.
@@ -24,6 +26,7 @@ Domain Knowledge (Pharma): Application of ALCOA+ principles and deviation manage
 3. Process Stability: Real-time monitoring of variability within established Control Limits (49.5mg - 50.5mg).
 
 📂 Repository Structure
+
 /data: Original production logs (anonymized).
 
 /scripts: Python Notebook (Google Colab) used for data pre-processing and validation.
