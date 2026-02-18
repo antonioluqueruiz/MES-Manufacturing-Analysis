@@ -1,4 +1,4 @@
-#📖 Data Dictionary: MES Production Log
+# 📖 Data Dictionary: MES Production Log
 This document defines the metadata and data structures used in the MES_project, following ALCOA+ principles.
 
 🗂️ Dataset Overview
