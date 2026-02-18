@@ -8,7 +8,7 @@ Format: CSV (Comma Separated Values).
 
 Scope: Monitoring of a pharmaceutical fill-finish line (Vial Weighing).
 
-📋 Field Definitions
+## 📋 Field Definitions
 Timestamp
 
 Data Type: DateTime
@@ -57,7 +57,7 @@ Description: Binary flag indicating if a system interlock or critical alarm was 
 
 Business Rule: 0: Normal operation. 1: Critical failure/alarm detected.
 
-🔍 Data Quality Notes
+## 🔍 Data Quality Notes
 Unit of Measure: All weights are recorded in milligrams (mg).
 
 Outlier Handling: The value of 500.00 mg in the Fill_Vial step is identified as a "Critical Peak Excursion," triggering a formal investigation.
