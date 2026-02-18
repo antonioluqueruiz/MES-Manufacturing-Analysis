@@ -1,7 +1,7 @@
 # 📖 Data Dictionary: MES Production Log
 This document defines the metadata and data structures used in the MES_project, following ALCOA+ principles.
 
-🗂️ Dataset Overview
+## 🗂️ Dataset Overview
 Source: Synthetic Manufacturing Execution System (MES) Log.
 
 Format: CSV (Comma Separated Values).
