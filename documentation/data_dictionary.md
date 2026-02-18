@@ -9,7 +9,7 @@ Format: CSV (Comma Separated Values).
 Scope: Monitoring of a pharmaceutical fill-finish line (Vial Weighing).
 
 ## 📋 Field Definitions
-Timestamp
+### 1. Timestamp
 
 Data Type: DateTime
 
@@ -17,7 +17,7 @@ Description: The exact date and time the event was recorded by the MES.
 
 Business Rule: Must follow ISO 8601 format. Used for time-series analysis.
 
-Value_Measured
+### 2. Value_Measured
 
 Data Type: Decimal
 
@@ -25,7 +25,7 @@ Description: The weight of the vial measured by the in-line scale in milligrams 
 
 Business Rule: Target: 50.0mg. Tolerance: ±0.5mg. Values outside this range trigger a deviation.
 
-Operator
+### 3. Operator
 
 Data Type: String
 
@@ -33,7 +33,7 @@ Description: The unique identifier of the technician authenticated in the MES st
 
 Business Rule: Used for accountability (Attributable).
 
-Step (Process Phases)
+### 4. Step (Process Phases)
 
 Data Type: String
 
@@ -49,7 +49,7 @@ Labeling: The application of the printed label containing the batch number, expi
 
 Weight_Final: The end-of-line verification weight. It confirms the total mass of the finished product before it enters secondary packaging.
 
-Critical_Alarm
+### 5. Critical_Alarm
 
 Data Type: Boolean (0/1)
 
