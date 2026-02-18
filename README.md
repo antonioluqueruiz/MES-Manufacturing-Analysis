@@ -5,7 +5,7 @@ This project delivers a comprehensive Business Intelligence and Statistical Anal
 The goal of this project is to transform raw production logs from a fill-finish line into an actionable oversight dashboard. The system monitors vial weighing processes, identifying anomalies that could compromise patient safety or plant efficiency in a high-stakes manufacturing setting.
 
 📊 [Dashboard Preview]
-![Dashboard Preview](dashboard_preview.png)
+![Dashboard Preview](reports/dashboard_preview.png)
 
 🛠️ Technical Skills Demonstrated
 
